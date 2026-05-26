@@ -38,7 +38,7 @@ helm uninstall canteen
 
 | Name                       | Description                                | Value                                          |
 |----------------------------|--------------------------------------------|------------------------------------------------|
-| `server.image.repository`  | Server image repository                    | `ghcr.io/aet-devops25/w06-template/server`     |
+| `server.image.repository`  | Server image repository                    | `ghcr.io/aet-devops26/w05-template/server`     |
 | `server.image.tag`         | Server image tag                           | `latest`                                       |
 | `server.image.pullPolicy`  | Server image pull policy                   | `Always`                                       |
 | `server.service.type`      | Server service type                        | `NodePort`                                     |
@@ -52,7 +52,7 @@ helm uninstall canteen
 
 | Name                       | Description                                | Value                                          |
 |----------------------------|--------------------------------------------|------------------------------------------------|
-| `client.image.repository`  | Client image repository                    | `ghcr.io/aet-devops25/w06-template/client`     |
+| `client.image.repository`  | Client image repository                    | `ghcr.io/aet-devops26/w05-template/client`     |
 | `client.image.tag`         | Client image tag                           | `latest`                                       |
 | `client.image.pullPolicy`  | Client image pull policy                   | `Always`                                       |
 | `client.service.type`      | Client service type                        | `NodePort`                                     |

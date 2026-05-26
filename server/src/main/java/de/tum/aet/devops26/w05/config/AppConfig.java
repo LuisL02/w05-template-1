@@ -1,4 +1,4 @@
-package de.tum.aet.devops25.w06.config;
+package de.tum.aet.devops26.w05.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

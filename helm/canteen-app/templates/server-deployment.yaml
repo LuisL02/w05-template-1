@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: canteen-server
-  namespace: "{{ .Values.tumid }}-devops25"
+  namespace: "{{ .Values.tumid }}-devops26"
 spec:
   replicas: {{ .Values.server.replicaCount }}
   selector:

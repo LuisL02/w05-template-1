@@ -1,6 +1,6 @@
 services:
   server:
-    image: ghcr.io/aet-devops25/w06-template/server:latest
+    image: ghcr.io/aet-devops26/w05-template/server:latest
     ports:
       - "8080:8080"
     environment:
@@ -14,7 +14,7 @@ services:
     restart: unless-stopped
 
   client:
-    image: ghcr.io/aet-devops25/w05-template/client:latest
+    image: ghcr.io/aet-devops26/w05-template/client:latest
     ports:
       - "3000:3000"
     environment:
@@ -24,7 +24,7 @@ services:
     restart: unless-stopped
 
   client-canary:
-    image: ghcr.io/aet-devops25/w06-template/client-canary:latest #canary tag
+    image: ghcr.io/aet-devops26/w05-template/client-canary:latest #canary tag
     ports:
       - "3001:3000" # canary deployment on port 3001
     environment:

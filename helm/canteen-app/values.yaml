@@ -1,7 +1,7 @@
 # This file contains the default values for the Canteen App Helm chart.
 
 # Add your tumid here
-tumid:
+tumid: 
 
 ##################################################################################################################
 # No changes needed below this line
@@ -10,7 +10,7 @@ namespace:
 
 server:
   image:
-    repository: ghcr.io/aet-devops25/w06-template/server
+    repository: ghcr.io/aet-devops26/w05-template/server
     tag: latest
     pullPolicy: Always
     pullSecrets:
@@ -26,7 +26,7 @@ server:
 
 client:
   image:
-    repository: ghcr.io/aet-devops25/w06-template/client
+    repository: ghcr.io/aet-devops26/w05-template/client
     tag: latest
     pullPolicy: Always
     pullSecrets:
@@ -39,7 +39,7 @@ client:
 
 canary_server:
   image:
-    repository: ghcr.io/aet-devops25/w06-template/server
+    repository: ghcr.io/aet-devops26/w05-template/server
     tag: latest
     pullPolicy: Always
     pullSecrets:
@@ -55,7 +55,7 @@ canary_server:
 
 canary_client:
   image:
-    repository: ghcr.io/aet-devops25/w06-template/client
+    repository: ghcr.io/aet-devops26/w05-template/client
     tag: canary
     pullPolicy: Always
     pullSecrets:

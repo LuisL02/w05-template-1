@@ -1,8 +1,9 @@
-package de.tum.aet.devops25.w06.model;
+package de.tum.aet.devops26.w05.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import java.time.LocalDate;
 import java.util.List;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public record Week(int number, int year, List<Day> days) {
+public record Day(LocalDate date, List<Dish> dishes) {
 }

@@ -1,9 +1,11 @@
-package de.tum.aet.devops25.w06;
+package de.tum.aet.devops26.w05;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import de.tum.aet.devops25.w06.model.Day;
-import de.tum.aet.devops25.w06.model.Dish;
-import de.tum.aet.devops25.w06.model.Week;
+
+import de.tum.aet.devops26.w05.model.Day;
+import de.tum.aet.devops26.w05.model.Dish;
+import de.tum.aet.devops26.w05.model.Week;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

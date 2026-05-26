@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: canary-canteen-client
-  namespace: "{{ .Values.tumid }}-devops25"
+  namespace: "{{ .Values.tumid }}-devops26"
 spec:
   replicas: {{ .Values.client.replicaCount }}
   selector:
@@ -10,6 +10,8 @@ spec:
       app: canary-canteen-client-selector
   template:
     metadata:
+      annotations:
+        checksum/app-config: {{ include (print $.Template.BasePath "/configmap.yaml") . | sha256sum }}
       labels:
         app: canary-canteen-client-selector
     spec:

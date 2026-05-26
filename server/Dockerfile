@@ -1,5 +1,5 @@
 # Stage 1: Build the application
-FROM gradle:8.14-jdk21 AS build
+FROM gradle:9.4.0-jdk21 AS build
 
 # Set working directory
 WORKDIR /app

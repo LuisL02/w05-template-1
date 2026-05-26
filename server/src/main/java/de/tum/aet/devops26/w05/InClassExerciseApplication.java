@@ -1,4 +1,4 @@
-package de.tum.aet.devops25.w06;
+package de.tum.aet.devops26.w05;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
